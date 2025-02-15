@@ -1,12 +1,12 @@
 # Deep-learning-challenge
 
-** Overview of the Analysis **
+**Overview of the Analysis**
 
 The purpose of this analysis is to develop and optimize a deep learning model to predict the success of organizations receiving funding from Alphabet Soup. By utilizing a neural network, we aim to analyze various features of these organizations to determine the likelihood of their success.
 
-**Results
+**Results**
 
-** Data Preprocessing
+**Data Preprocessing**
 
 Target Variable:
 
@@ -26,7 +26,7 @@ Used pd.get_dummies() to encode categorical variables.
 
 Combined rare categorical values into an "Other" category to prevent data sparsity issues.
 
-** Data Splitting and Scaling:
+**Data Splitting and Scaling:**
 
 The dataset was split into training and testing sets using train_test_split().
 
@@ -54,7 +54,7 @@ The model was trained using binary_crossentropy loss and adam optimizer.
 
 Initial training resulted in an accuracy below 75%.
 
-** Optimization Attempts:
+**Optimization Attempts:**
 
 Increased the number of neurons in hidden layers.
 
@@ -64,17 +64,17 @@ Adjusted activation functions.
 
 Increased the number of epochs to improve learning.
 
-** Result: 
+**Result:**
 
 The optimized model achieved a higher accuracy but did not consistently exceed 75%.
 
-** Summary and Recommendations
+**Summary and Recommendations**
 
-** Overall Model Performance:
+**Overall Model Performance:**
 
 Despite optimizations, the model did not consistently achieve the target accuracy of 75%.
 
-** Alternative Models:
+**Alternative Models:**
 
 A Random Forest classifier or Gradient Boosting model could be used to compare performance, as tree-based models often handle categorical data well and may provide better interpretability.
 
