@@ -4,6 +4,9 @@
 
 The purpose of this analysis is to develop and optimize a deep learning model to predict the success of organizations receiving funding from Alphabet Soup. By utilizing a neural network, we aim to analyze various features of these organizations to determine the likelihood of their success.
 
+![image](https://github.com/user-attachments/assets/12d51670-d444-4123-96c8-121f289b5259)
+
+
 **Results**
 
 **Data Preprocessing**
@@ -71,6 +74,8 @@ The optimized model achieved a higher accuracy but did not consistently exceed 7
 **Summary and Recommendations**
 
 **Overall Model Performance:**
+
+![image](https://github.com/user-attachments/assets/f77f3afb-b31e-4196-8ae7-5996ba6225db)
 
 Despite optimizations, the model did not consistently achieve the target accuracy of 75%.
 
