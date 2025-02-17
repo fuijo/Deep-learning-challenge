@@ -75,7 +75,7 @@ The optimized model achieved a higher accuracy but did not consistently exceed 7
 
 **Overall Model Performance:**
 
-![image](https://github.com/user-attachments/assets/f77f3afb-b31e-4196-8ae7-5996ba6225db)
+![image](https://github.com/user-attachments/assets/98afb1e7-12fd-467b-ac1b-cc4752a5238d)
 
 Despite optimizations, the model did not consistently achieve the target accuracy of 75%.
 
